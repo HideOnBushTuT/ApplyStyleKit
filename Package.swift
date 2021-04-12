@@ -6,7 +6,7 @@ import PackageDescription
 let package = Package(
     name: "ApplyStyleKit",
     products: [
-        .executable(name: "ApplyStyleKit", targets: ["ApplyStyleKit"])
+        .library(name: "ApplyStyleKit", targets: ["ApplyStyleKit"])
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
